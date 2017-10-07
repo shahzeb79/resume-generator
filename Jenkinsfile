@@ -17,7 +17,6 @@ node {
   
   stage "Clean Deployments"
   sh("kubectl delete deployment ${appName} --namespace=production")
-  sh("kubectl delete service ${appName} --namespace=production")
 
   stage "Deploy Application"
   switch (env.BRANCH_NAME) {
