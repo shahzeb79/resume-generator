@@ -23,6 +23,11 @@
           "network": "linkedin",
           "username": "shahzeb-khan",
           "url": "https://www.linkedin.com/in/shahzeb-khan-80404a39/"
+        },
+        {
+          "network": "stackoverflow",
+          "username": "shahzeb-khan",
+          "url": "https://stackoverflow.com/users/8332648/shahzeb-khan"
         }
       ]
     },
@@ -59,8 +64,8 @@
         "highlights": [
           "The Application itself can be accessible on: http://35.196.246.48/" ,
           "Jenkins is available on: http://35.190.75.125/          ",
-          "Travis build: https://travis-ci.org/shahzeb79/express-demo-app",
-          "Github for code is available on: https://github.com/shahzeb79/express-demo-app",
+          "Travis build: https://travis-ci.org/shahzeb79/resume-generator",
+          "Github for code is available on: https://github.com/shahzeb79/resume-generator",
           "Role: Developer, Operations",
           "Technologies: NodeJS, Kubernetes, CentOS, Docker, Jenkins, TravisCI"
           
