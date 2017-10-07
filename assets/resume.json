@@ -1,0 +1,171 @@
+{
+    "basics": {
+      "name": "Shahzeb Khan",
+      "label": "Developer",
+      "picture": "",
+      "email": "shahzeb79@yahoo.com",
+      "phone": "+49-15774282981",
+      "website": "http://35.196.246.48/",
+      "location": {
+        "address": "Nedlitzer Strasse 91",
+        "postalCode": "14469",
+        "city": "Potsdam",
+        "countryCode": "Germany",
+        "region": "Brandenburg"
+      },
+      "profiles": [
+        {
+          "network": "github",
+          "username": "shahzeb79",
+          "url": "https://www.github.com/shahzeb79"
+        },
+        {
+          "network": "linkedin",
+          "username": "shahzeb-khan",
+          "url": "https://www.linkedin.com/in/shahzeb-khan-80404a39/"
+        }
+      ]
+    },
+    "education": [
+      {
+        "institution": "University of Mannheim, Germany",
+        "area": "Business Informatics",
+        "studyType": "Masters",
+        "startDate": "2014-09-01",
+        "endDate": "2017-07-01",
+        "courses": [
+          "Business Inteligence",
+          "Enterprise Systems", "Software Engineering", "Data Mining"
+        ]
+      },
+      {
+        "institution": "National University of Science and Technology, Pakistan",
+        "area": "Information Technology",
+        "studyType": "Bachelors",
+        "startDate": "2008-06-01",
+        "endDate": "2012-07-01",
+        "courses": [
+          "Computer Programming",
+          "Web Programming", "Databases", "Computer Networks"
+        ]
+      }
+    ],
+    "work": [
+      {
+        "company": "Personal, Hobby",
+        "position": "Developer",
+        "website": "https://www.github.com/shahzeb79",
+        "summary": "My personal setup of a small cloud application is mentioned below. It generates a personalized resume and cover letter accessible through loadbalancer IP, its written in NodeJs and deployed as microservices on kubernetes cluster of 3 machines(AWS). The build and test process is managed by travisCI and deployment is automated using build pipeline written in Jenkinsfile used by Jenkins pipeline plugin in Jenkins. Jenkins also run on same cluster as cloud application. Docker run on the master node of same cluster for the containerizing of microservices. Pushing any changes to resume.json on github repo triggers auto build and later deployment on cluster which publish the resume.",
+        "highlights": [
+          "The Application itself can be accessible on: http://35.196.246.48/" ,
+          "Jenkins is available on: http://35.190.75.125/          ",
+          "Travis build: https://travis-ci.org/shahzeb79/express-demo-app",
+          "Github for code is available on: https://github.com/shahzeb79/express-demo-app",
+          "Role: Developer, Operations",
+          "Technologies: NodeJS, Kubernetes, CentOS, Docker, Jenkins, TravisCI"
+          
+        ]
+      },
+      {
+        "company": "SAP SE, Germany",
+        "position": "Student, Developer",
+        "website": "https://icn.sap.com/home.html",
+        "startDate": "2016-05-01",
+        "endDate": "2017-08-01",
+        "summary": "At SAP, I worked on various projects ranging from frontend to backend, databases, operations involving containerizing microservices, deploying kubernetes locally and automation using Jenkins.",
+        "highlights": [
+          "Kubernetes cluster setup and deployment of MongoDb: \n While working with my team on the migration of SAP Health Patient summary application from on premise to cloud, currently I am involved in setting up kubernetes cluster on  plexus cloud. In this project, I also worked on containerizing different components of application and deployment of mongoDB cluster on kubernetes as storage medium. \n Role: Developer \n Technologies: MongoDB, Jenkins, Kubernetes,  Docker \n Development process: Agile" ,
+          "Data generator for medical research insights application: \n In this project with some other colleagues we developed a semi hidden markov model  based data generator in JavaScript which is being used to generate patients, their interactions, conditions, disease, treatments and medical history. The data generator is being actively used in development and demo systems. \n Role: Developer \n Technologies: NodeJS, Sinon, Mocha(Testing), Python, SAP hana database \n Development process: Agile",
+          "End to End performance measurement tool: \n In this project, we developed a performance measurement tool to identify the end to end latency of requests from MRI Patient Analytics Platform to the various end points. In the tool, we also captured the latency on HANA database by certain request and queries generated. Our tool also allows a developer or tester to replay some specific or set of requests to see their behavior on current time without going to Analytics platform itself. It is built in JavaScript, Typescript and using HANA database. \n Role: Developer \n Technologies: NodeJS, Sinon, Mocha(Testing), SAP hana database \n Development process: Agile",
+          "Implementation of DBscan clustering algorithm: \n In this project, my task was to implement a fast clustering algorithm on the timeline component of one of application. That timeline used to let user interact with different floating tiles representing different treatments and diagnosis patient gets. Zooming in or out clusters or de-clusters the tiles with respect to timeframe they fall in. Previously it was implemented using hierarchical clustering but as tiles increase in numbers, that algorithm do not perform well in real time. So i implemented dbscan clustering technique. \n Role: Developer \n Technologies: Javascript, QUint \n Development process: Agile"
+        ]
+      },
+      {
+        "company": "University of Mannheim, Germany",
+        "position": "Student, Developer",
+        "website": "https://www.uni-mannheim.de/",
+        "startDate": "2015-07-01",
+        "endDate": "2016-08-01",
+        "summary": "The official app of the University of Mannheim provides students, employees and guests mobile access to information about the university: Campus plan cafeteria menu, sports program, news and event announcements, with many other functions in the applications. The App was built in hybrid Ionic framework and Java as backend.",
+        "highlights": [
+          "Play store: https://play.google.com/store/apps/details?id=de.klm_mobilesolutions.unima" ,
+          "App store: https://itunes.apple.com/de/app/universitat-mannheim/id523069013"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Development and Frameworks",
+        "level": "Master",
+        "keywords": [
+          "HTML5",
+          "CSS", "LESS", "Java",
+          "Javascript" , "NodeJS", "AngularJS", "Ionic", "JQuery"
+        ]
+      },
+      {
+        "name": "Software Development",
+        "level": "Intermediate",
+        "keywords": [
+          "C++", "Bash",
+          "PHP"
+        ]
+      },
+      {
+        "name": "Testing",
+        "level": "Intermediate",
+        "keywords": [
+          "QUnit",
+          "Mocha", "Chai"
+        ]
+      },
+      {
+        "name": "Operations and Cloud",
+        "level": "Intermediate",
+        "keywords": [
+          "Jenkins", "Travis", "Docker", "Kubernetes", "Ansible", "GoogleContainerEngine", "AWS-EC2-ELB"
+        ]
+      },
+      {
+        "name": "Operating Systems",
+        "level": "Intermediate",
+        "keywords": [
+          "Windows CMD", "Linux terminal", "MacOS"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fluent"
+      },
+      {
+        "language": "German(basic)",
+        "fluency": "Basic"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Wildlife",
+        "keywords": [
+          "Parrots",
+          "Lions"
+        ]
+      },
+      {
+        "name": "Online Gaming",
+        "keywords": [
+          "Dota2",
+          "CounterStrike"
+        ]
+      },
+      {
+        "name": "Watching",
+        "keywords": [
+          "Movies",
+          "Documentries"
+        ]
+      }
+    ]
+  }
+  
