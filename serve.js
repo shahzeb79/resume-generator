@@ -1,6 +1,6 @@
 var http = require("http");
 var fs = require("fs");
-var resume = JSON.parse(fs.readFileSync('resume.json', 'utf8'));
+var resume = JSON.parse(fs.readFileSync('./resume.json', 'utf8'));
 var theme = require("./index.js");
 var path = require("path");
 
