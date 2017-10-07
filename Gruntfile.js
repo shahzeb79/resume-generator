@@ -33,7 +33,7 @@ module.exports = function(grunt) {
             resumejson: {
                 cwd: './',
                 src: [ 'resume.json' ],
-                dest: './assets',
+                dest: './',
                 expand: true
             },
             build: {
