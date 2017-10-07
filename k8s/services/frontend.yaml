@@ -12,3 +12,7 @@ spec:
   selector:
     app: expressapp
     role: expressapp
+status:
+  loadBalancer:
+    ingress:
+    - ip: 35.196.246.48
