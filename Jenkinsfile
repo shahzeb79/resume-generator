@@ -7,7 +7,7 @@ node {
   checkout scm
 
   stage 'Docker Login'
-  sh("docker login --username=shahzeb799 --password=Shani@123")
+  sh("docker login --username=shahzeb799 --password=***")
   
   stage 'Build image'
   sh("docker build -t ${imageTag} .")
