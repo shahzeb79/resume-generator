@@ -23,7 +23,7 @@
   "homepage": "",
   "dependencies": {
     "gravatar": "^1.0.6",
-    "handlebars": "^2.0.0-alpha.4",
+    "handlebars": "^4.5.3",
     "jsonresume-themeutils": "^1.4.3",
     "markdown-it": "^6.0.1",
     "markdown-it-abbr": "^1.0.3",
