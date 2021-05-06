@@ -31,7 +31,7 @@
     "pug": "^2.0.0-beta6",
     "resume-schema": "0.0.16",
     "tarball-extract": "0.0.3",
-    "underscore": "^1.6.0"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
