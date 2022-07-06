@@ -27,7 +27,7 @@
     "jsonresume-themeutils": "^1.4.3",
     "markdown-it": "^6.0.1",
     "markdown-it-abbr": "^1.0.3",
-    "moment": "^2.8.1",
+    "moment": "^2.29.4",
     "pug": "^2.0.0-beta6",
     "resume-schema": "0.0.16",
     "tarball-extract": "0.0.3",
